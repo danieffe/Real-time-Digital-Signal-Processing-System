@@ -1,6 +1,6 @@
 # Real-time-Digital-Signal-Filtering-System
 
-Project developed for my Real-Time Systems Design and Development course.
+Project developed for my **Real-Time Systems Design and Development** course.
 This project implements a real-time Digital Signal Processing (DSP) application structured into multiple periodic tasks. It acquires a noisy signal, processes it concurrently through different filtering algorithms, stores the output to a file, and analyzes its performance via local peak counting.
 
 ## 🏗️ System Architecture
