@@ -34,7 +34,7 @@ pip install matplotlib
 ```    
 
 ### 2. Compilation and Execution
-It is recommended to bind periodic tasks to the same CPU core (using `taskset` or CPU affinity settings) to preserve Rate Monotonic schedulability assumptions[cite: 12]:
+It is recommended to bind periodic tasks to the same CPU core (using `taskset` or CPU affinity settings) to preserve Rate Monotonic schedulability assumptions:
 
 ```bash
 # Example execution pinned to a single core (e.g., core 0)
